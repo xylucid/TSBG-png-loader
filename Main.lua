@@ -1,3 +1,4 @@
+print("Starting")
 Plr = game.Players.LocalPlayer;
 Char = Plr.Character;
 
