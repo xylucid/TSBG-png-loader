@@ -1,8 +1,6 @@
 Plr = game.Players.LocalPlayer;
 Char = Plr.Character;
 
-
-
 -- png = "frame0.png"
 -- Dividend = 1 -- .1 = small image 1 = normal res 
 
@@ -186,7 +184,6 @@ function PNG.new(buffer)
 	return setmetatable(file, PNG)
 end
 
-
 local function spawnblock(cf, color, size)
     local uuid = game:GetService("HttpService"):GenerateGUID()
     local args = {
@@ -217,17 +214,10 @@ local function cum(png)
 	return png
 end
 
--- serialData = {}
-
-plscuminmyassplssss = true
-
-
-    
+-- serialData = {}  
 local png = cum(png)
 print(png.Width*png.Height);
-
 pos = pos + Vector3.new(0,(png.Height*0.07/Dividend) + 0.1,0)
-
 for x = 1, png.Width do
 	for y = 1, png.Height do
 		local color, a = png:GetPixel(x, y)
